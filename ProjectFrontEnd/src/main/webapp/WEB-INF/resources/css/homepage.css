@@ -1,0 +1,22 @@
+@charset "ISO-8859-1";
+h1   {color: black;}
+p{color: black}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 30%;
+    background-color: #595b59;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+}
+.carousel-indicators .active {
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+    background-color: #dcdddb;
+}
